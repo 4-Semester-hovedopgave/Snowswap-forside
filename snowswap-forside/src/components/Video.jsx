@@ -1,9 +1,9 @@
-import Image from "next/image";
-
 export default function Video() {
     return (
-        <section>
-            <h1 className="text-orange-500 text-2xl">Video</h1>
+        <section className="w-full p-6 md:p-20 lg:px-32 xl:px-64">
+            <video controls className="w-full">
+                <source src="/video.mp4" type="video/mp4" />
+            </video>
         </section>
     );
-}
+} 

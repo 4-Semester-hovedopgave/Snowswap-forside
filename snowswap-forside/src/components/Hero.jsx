@@ -3,7 +3,6 @@ import Image from "next/image";
 export default function Hero() {
     return (
         <section>
-            <h1 className="text-orange-500 text-2xl">Hero-section</h1>
             <div>
                 <Image
                     src="/forside.png"
